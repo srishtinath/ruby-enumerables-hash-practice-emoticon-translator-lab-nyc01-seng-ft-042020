@@ -23,16 +23,13 @@ def get_english_meaning(file, string)
   # code goes here
   library = load_library(file)
   library.each do |meaning, emoticons|
-     return_value = emoticons.each do |language, characters|
+     emoticons.each do |language, characters|
       if string == characters
         return meaning
       end
-      return_value
     end
   end
-  if !return_value.empty?
-    puts "Sorry, that emoticon was not found"
-  end
+
 end
 
 def get_japanese_emoticon (file, emoticon_input)
