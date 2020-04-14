@@ -33,7 +33,7 @@ def get_english_meaning(file, string)
   if return_value === Hash
     puts "Sorry, that emoticon was not found"
   end
-
+  puts "Sorry, that emoticon was not found"
 end
 
 def get_japanese_emoticon (file, emoticon_input)
