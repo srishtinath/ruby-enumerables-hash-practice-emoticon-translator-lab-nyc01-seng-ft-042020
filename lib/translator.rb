@@ -29,7 +29,7 @@ def get_english_meaning(file, string)
       end
     meaning
     end
-    
+
   end
 end
 
