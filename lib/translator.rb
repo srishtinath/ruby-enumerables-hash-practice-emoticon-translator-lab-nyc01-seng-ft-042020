@@ -26,8 +26,6 @@ def get_english_meaning(file, string)
      return_value = emoticons.each do |language, characters|
       if string == characters
         return meaning
-      else
-        return ""
       end
       return_value
     end
