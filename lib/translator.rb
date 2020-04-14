@@ -29,9 +29,6 @@ def get_english_meaning(file, string)
       end
     meaning
     end
-    if !return_value.is_a?(string)
-      puts "Sorry, that emoticon was not found"
-    end
   end
 end
 
