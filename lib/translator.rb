@@ -30,7 +30,7 @@ def get_english_meaning(file, string)
     end
   end
 
-  if return_value.is_a?(Hash)
+  if return_value.is_a?(hash)
     puts "Sorry, that emoticon was not found"
   end
 
