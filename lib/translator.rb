@@ -23,7 +23,7 @@ def get_english_meaning(file, string)
   # code goes here
   library = load_library(file)
   library.each do |meaning, emoticons|
-     if emoticons.any? do |language, characters|
+     emoticons.any? do |language, characters|
       if string == characters
         return meaning
       end
