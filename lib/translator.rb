@@ -29,6 +29,10 @@ def get_english_meaning(file, string)
       end
       return_value
     end
+    if return_value.is_empty?
+      puts "Sorry, this emoticon is not known"
+      
+    end
   end
 
 end
