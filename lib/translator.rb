@@ -28,7 +28,7 @@ def get_english_meaning(file, string)
         return meaning
       end
     end
-    
+
   end
   if return_value === Hash
     puts "Sorry, that emoticon was not found"
