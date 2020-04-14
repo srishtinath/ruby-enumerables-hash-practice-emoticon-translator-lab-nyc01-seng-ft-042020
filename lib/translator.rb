@@ -29,7 +29,7 @@ def get_english_meaning(file, string)
       end
     end
   end
-
+  binding.pry
   if return_value === Hash
     puts "Sorry, that emoticon was not found"
   end
