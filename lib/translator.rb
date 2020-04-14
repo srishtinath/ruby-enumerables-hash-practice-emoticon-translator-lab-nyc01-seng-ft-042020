@@ -27,6 +27,7 @@ def get_english_meaning(file, string)
       if string == characters
         return meaning
       end #end if statement
+      binding.pry
     end # end inner Enumerator
   end # end outer Enumerator
 end #close definition
