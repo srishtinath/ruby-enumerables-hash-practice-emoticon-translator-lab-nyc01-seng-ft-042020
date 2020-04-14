@@ -23,9 +23,11 @@ def get_english_meaning(file, string)
   # code goes here
   library = load_library(file)
   library.each do |meaning, emoticons|
-     emoticons.each do |language, characters|
+     return_value = moticons.each do |language, characters|
       if string == characters
         return meaning
+      else
+        return ""
       end
     end
   end
