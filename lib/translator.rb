@@ -26,10 +26,10 @@ def get_english_meaning(file, string)
      return_value = emoticons.any? do |language, characters|
       if string == characters
         return meaning
-      end
-    end
-  end
-end
+      end #end if statement
+    end # end inner Enumerator
+  end # end outer Enumerator
+end #close definition
 
 def get_japanese_emoticon (file, emoticon_input)
   # code goes here
