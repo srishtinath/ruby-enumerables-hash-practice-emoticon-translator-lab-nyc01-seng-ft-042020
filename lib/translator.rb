@@ -29,6 +29,7 @@ def get_english_meaning(file, string)
       else
         return ""
       end
+      return_value
     end
   end
 
