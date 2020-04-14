@@ -27,7 +27,7 @@ def get_english_meaning(file, string)
       if string == characters
         return meaning
       else
-        return " "
+        return ""
       end
     end
   end
