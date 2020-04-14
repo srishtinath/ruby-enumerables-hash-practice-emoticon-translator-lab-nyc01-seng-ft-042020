@@ -33,7 +33,6 @@ def get_english_meaning(file, string)
     end
     if return_value.kind_of?(string)
       puts "Sorry, this is not a known emoticon"
-
     end
   end
 
