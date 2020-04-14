@@ -22,7 +22,7 @@ end
 def get_english_meaning(file, string)
   # code goes here
   library = load_library(file)
-  return_value = library.each do |meaning, emoticons|
+  library.each do |meaning, emoticons|
      emoticons.each do |language, characters|
       if string == characters
         return meaning
