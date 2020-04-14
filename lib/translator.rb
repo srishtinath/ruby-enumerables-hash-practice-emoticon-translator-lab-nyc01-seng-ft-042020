@@ -28,6 +28,7 @@ def get_english_meaning(file, string)
         return meaning
       end
     end
+    puts "Sorry, that emoticon was not found"
   end
 
 end
